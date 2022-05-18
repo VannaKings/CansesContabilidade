@@ -18,9 +18,8 @@
 }
 .banner .container
 {
-    display: flex;
     flex-direction: column;   
-    padding: 150px 300px;
+    padding: 180px 12%;    
 }
 .banner .container h1
 {
@@ -54,45 +53,31 @@
 
 /* -----Seção sobre----- */
 
-.sobreObjetivos
+.sobreObjetivos .container
 {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 70px 20px 70px 100px; 
 }
-.sobreObjetivos h2
+.sobreObjetivos .container h2
 {
     display: flex;
     justify-content: center;
     /* margin-left: 200px; */
     font-size: 32px;
     color: var(--preto);
+    margin-bottom: 30px;
 }
-.sobreObjetivos #decoracao
-{
-    max-height: 300px;
-    max-width: 700px;
-    margin-left: 30px; 
-    margin-top: 50px; 
-}
-
-.sobreObjetivos .container
+.objetivos
 {
     display: flex;
 }
-.sobreObjetivos .objetivos
-{
-    display: flex;
-    flex-direction: column;
-}
-
 .sobreObjetivos .objetivos p
 {
-    font-size: 16px;
+    font-size: 14px;
     color:var(--cinza) ;
-    width: 500px;
+    width: 250px;
 }
 .sobreObjetivos .objetivos img
 {
@@ -104,4 +89,5 @@
     display: flex;
     align-items: center;    
     padding-top: 20px;
+
 }
