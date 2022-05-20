@@ -18,16 +18,17 @@
 }
 .banner .container
 {
+    display: flex;
     flex-direction: column;   
-    padding: 180px 12%;    
+    padding: 180px 0;    
 }
-.banner .container h1
+.banner h1
 {
     font-size: 40px;
     color: var(--verde);
     text-shadow: 0.05em 0.05em 0.1em rgb(43, 42, 42);
 }
-.banner .container p
+.banner p
 {
     padding: 40px 0;
     font-weight: bold;
@@ -35,7 +36,7 @@
     width: 400px;
     color: var(--preto);
 }
-.banner .container button
+.banner button
 {
     border-radius: 20px;
     width: 250px;
@@ -55,12 +56,13 @@
 
 .sobreObjetivos .container
 {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 70px 20px 70px 100px; 
 }
-.sobreObjetivos .container h2
+.sobreObjetivos h2
 {
     display: flex;
     justify-content: center;
@@ -90,4 +92,64 @@
     align-items: center;    
     padding-top: 20px;
 
+}
+
+/* Seção serviços */
+.servicos
+{
+    background-color: whitesmoke;
+}
+.servicos .container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.servicos .servicos_titulo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+.servicos_titulo p
+{
+    margin-top: 20px
+}
+.servicos_conteudo
+{
+    display: grid;
+    grid-template-columns: 40% 40% 30%;
+    grid-template-rows: 50% 50% 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+}
+.servicos_conteudo .area
+{
+    display: flex;
+    align-items: center;    
+}
+.servicos_conteudo .texto
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 250px;
+}
+.servicos_conteudo i
+{
+    font-size: 50px;
+    color: var(--azul);
+}
+.texto p
+{
+    font-size: 14px;
+    margin-top: 20px;
 }

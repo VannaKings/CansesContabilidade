@@ -1,0 +1,24 @@
+@media screen and (max-width:1300px)
+{
+    header .container
+    {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    }
+
+    .sobreObjetivos .objetivos
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;      
+    }    
+}
+
+@media screen and (min-width:1000px)
+{
+    .descricao
+    {
+        width: 50%;
+    }
+}
