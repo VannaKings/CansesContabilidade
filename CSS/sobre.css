@@ -23,9 +23,10 @@
     padding: 90px 0 0 50px;
     background-color: white;
     height: 260px;
-    width: 650px;
-    margin-left: 20%;
+    width: 70%;
+    margin-left: 10%;
     margin-top: 340px;
+    max-width: 1000px;
 }
 .banner #biografia
 {
@@ -48,16 +49,80 @@
     margin-top:50px;
 }
 
-.sobreCansas .container
+/* ----Seção historia---- */
+
+.historia .container
 {
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
-    padding: 10px 0 0 50px;
-    max-width: 600px;
+    margin-left: 10%;
+    width: 60%;
+    padding: 20px 0 0 50px;
+    max-width: 1000px;
 }
-.sobreCansas .container p
+.historia .container p
 {
     color: var(--cinza);
     margin-bottom: 20px;    
+}
+
+/* ----Seção Equipe---- */
+
+.equipe
+{
+    border-top: 20px solid var(--verde);
+    background-color: whitesmoke;
+}
+
+.equipe .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.equipe .descricao
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.descricao .titulo p
+{
+    width: 600px;
+    color: var(--cinza);
+}
+.equipe .descricao strong
+{
+    color: red;
+}
+.equipe .descricao h2
+{
+    padding: 20px 0;
+}
+.imagem_decorativa img
+{
+    border-radius: 10px;
+    height: 200px;
+}
+.equipe_perfil
+{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+.equipe_perfil img
+{
+    max-width:200px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.equipe_perfil figcaption
+{
+    width: 200px;
+    color: var(--cinza);
+    font-weight: bold;
 }

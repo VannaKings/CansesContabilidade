@@ -26,6 +26,7 @@
 {
     font-size: 40px;
     color: var(--verde);
+    font-weight: bold;
     text-shadow: 0.05em 0.05em 0.1em rgb(43, 42, 42);
 }
 .banner p
@@ -51,6 +52,15 @@
     word-spacing: 4.3px;
     letter-spacing: .8px;
 }
+.banner button:hover
+{
+    background-color: var(--azul);
+    border-color: whitesmoke;
+}
+.banner a
+{
+ text-decoration: none;
+}
 
 /* -----Seção sobre----- */
 
@@ -66,35 +76,50 @@
 {
     display: flex;
     justify-content: center;
-    /* margin-left: 200px; */
+    margin-bottom: 10px;
     font-size: 32px;
     color: var(--preto);
     margin-bottom: 30px;
 }
+
+.sobreObjetivos p
+{
+    color: var(--cinza);
+    margin-bottom: 20px;
+}
+
+.sobreObjetivos img
+{
+    max-height: 200px;
+    width: 150px;    
+}
+
 .objetivos
 {
     display: flex;
+    justify-content: center;
+    padding: 30px;
 }
-.sobreObjetivos .objetivos p
+
+.objetivos img
+{
+    margin-left: 50px;
+}
+
+ .objetivos p
 {
     font-size: 14px;
-    color:var(--cinza) ;
-    width: 250px;
+    color: var(--cinza);
+    width: 300px;
 }
-.sobreObjetivos .objetivos img
-{
-    max-height: 150px;
-    width: 150px;    
-}
-.sobreObjetivos .objetivos div
-{
-    display: flex;
-    align-items: center;    
-    padding-top: 20px;
 
+.valores
+{
+    margin-right: 20px;
 }
 
 /* Seção serviços */
+
 .servicos
 {
     background-color: whitesmoke;
@@ -119,18 +144,18 @@
 }
 .servicos_titulo p
 {
-    margin-top: 20px
+    margin-top: 20px;
+    color: var(--cinza);
 }
 .servicos_conteudo
 {
     display: grid;
     grid-template-columns: 40% 40% 30%;
-    grid-template-rows: 50% 50% 50%;
     align-items: center;
     justify-content: center;
     padding: 50px;
-
 }
+
 .servicos_conteudo .area
 {
     display: flex;
@@ -152,4 +177,74 @@
 {
     font-size: 14px;
     margin-top: 20px;
+    color:var(--cinza)
+}
+
+/*----Orçamentos----*/
+
+.orcamentos .container 
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 1100px;
+}
+.orcamentos .descricao
+{
+    text-align: center; 
+    margin: 30px 0;    
+}
+.orcamentos .descricao p
+{
+    margin-top: 20px;
+    color: var(--cinza);
+}
+.orcamentos .descricao a
+{
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: bold;
+}
+.orcamentos table
+{
+    color: var(--cinza);
+}
+
+/* ---Clientes---- */
+
+.clientes
+{
+    background-color: whitesmoke;
+}
+
+.clientes .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.clientes .descricao
+{
+    text-align: center;
+}
+.clientes .descricao p
+{
+    color: var(--cinza);
+    margin: 20px 0 30px 0;
+}
+
+.clientes_conteudo
+{
+    display: grid;
+    grid-template-columns: 50% 50% 30%;
+    grid-template-rows: 120px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px; 
+}
+.clientes_conteudo a img
+{
+    max-width: 200px;
 }

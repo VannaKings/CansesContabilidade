@@ -1,24 +1,36 @@
-@media screen and (max-width:1300px)
+@media screen and (max-width:900px)
 {
     header .container
     {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
     }
 
-    .sobreObjetivos .objetivos
+    .objetivos,.descricao
     {
         display: flex;
         flex-direction: column;
-        justify-content: center;      
-    }    
+        align-items: center;   
+    } 
+    .equipe .descricao p
+    {
+        margin-bottom: 20px;
+    }
+    .equipe h2
+    {
+        text-align: center;
+    }
+    .equipe_perfil
+    {
+        display: grid;
+        grid-template-columns: 250px 200px;
+    }
 }
 
 @media screen and (min-width:1000px)
 {
-    .descricao
+    /* .descricao
     {
         width: 50%;
-    }
+    } */
 }

@@ -13,22 +13,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    
 </head>
 <body>
     <header>
         <!-- cabeçalho e menu-->     
         <div class="container">
             <figure class="logo">
-                <a href="../index.html"><img src="../imgs/logoCanses.png" alt="logoCanses" id = "logo"></a> 
+                <a href="../index.html"><img src="../imgs/logoCanses.png" alt="logoCanses" id="logo"></a> 
             </figure>
             <nav class="menu">
-                <a href="../index.html">Home</a>
+                <a href="../index.html">Home</a>                
+                <a href="../index.html#servicos">Serviços</a>
+                <a href="../index.html#clientes">Clientes</a>
                 <a href="sobre.html">Sobre a Canses</a>
-                <a href="">Equipe</a>
-                <a href="">Clientes</a>
-                <a href="">Serviços</a>
-                <a href="">Contato</a>
+                <a href="">Perguntas Frequentes</a>
+                <a href="#rodape">Contato</a>
             </nav>
         </div>      
     </header>
@@ -36,11 +35,11 @@
         <section class="banner">
             <div class="container">
                 <p id="biografia">Biografia</p>
-                <h1 id="titulo">Sobre a Canses</h1>
+                <h1 id="titulo">História da Canses</h1>
                 <div id="linhaDecorativa"></div>
             </div>
         </section>
-        <section class="sobreCansas">            
+        <section class="historia">            
             <div class="container">
                 <p>
                     O Escritório Canses Contabilidade foi fundado em 07 de abril de 1988 em Irati pelos
@@ -83,12 +82,42 @@
                     com o empresário, orientando e cuidando da burocracia sempre em busca da melhor
                     solução para cada caso.
                 </p>
-
+            </div>            
+        </section>
+        <section class="equipe">
+            <div class="container">
+                <div class="descricao">
+                    <div class="titulo">
+                        <strong>Equipe</strong>
+                        <h2>Um time de profissionais incríveis</h2>
+                        <p>Contamos com uma equipe especializada nas áreas diversas da contabilidade, cuidando desde a abertura de empresa, o planejamento tributário estratégico, orientações e assessoria empresarial, bem como tudo que é necessário para a saúde contábil da mesma. Para que a abertura de empresa, de sua empresa, seja do início ao fim executado com excelência!</p>
+                    </div>
+                    <div class="imagem_decorativa">
+                        <img src="/imgs/decoracaoPag.PNG" alt="Imagem decorativa">
+                    </div>
+                </div>
+                <div class="equipe_perfil">
+                    <figure>
+                        <img src="../imgs/Tadeu.jpeg" alt="">
+                        <figcaption>Tadeu Vilmar: CEO e Fundador</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../imgs/Bruna.jpeg" alt="">
+                        <figcaption>Bruna Soares: Coordenadora de Tesouraria</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../imgs/Jorginho.jpeg" alt="">
+                        <figcaption>Jorginho Vilmar: Líder de Pagamentos</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../imgs/MariaLucia.jpeg" alt="">
+                        <figcaption>Maria Lucia Zuks: Gerente de RH</figcaption>
+                    </figure>
+                </div>
             </div>
-            
         </section>
     </main>
-    <footer>
+    <footer id="rodape">
         <div class="container">
             <div class="contatoMensagem">
                 <p>Contato</p>
@@ -96,7 +125,7 @@
                 <input type="email" name="email" id="email" placeholder="E-mail">
                 <input type="tel" placeholder="Telefone" name="number" id="numero">            
                 <textarea name="" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
-                <button> Enviar </button>
+                <button type="button" class="botao"> Enviar </button>
             </div>
             <div class="contatoRedesSociais">
                 <div class="titulo"><h2 >Redes Sociais:</h2></div>
