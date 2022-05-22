@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <!-- cabeçalho e menu-->     
+        <!-- Cabeçalho e menu-->     
         <div class="container">
             <figure class="logo">
                 <a href="../index.html"><img src="../imgs/logoCanses.png" alt="logoCanses" id="logo"></a> 
@@ -26,12 +26,13 @@
                 <a href="../index.html#servicos">Serviços</a>
                 <a href="../index.html#clientes">Clientes</a>
                 <a href="sobre.html">Sobre a Canses</a>
-                <a href="">Perguntas Frequentes</a>
+                <a href="perguntas.html">Perguntas Frequentes</a>
                 <a href="#rodape">Contato</a>
             </nav>
         </div>      
     </header>
     <main>
+        <!-- Banner -->
         <section class="banner">
             <div class="container">
                 <p id="biografia">Biografia</p>
@@ -39,6 +40,7 @@
                 <div id="linhaDecorativa"></div>
             </div>
         </section>
+        <!-- História -->
         <section class="historia">            
             <div class="container">
                 <p>
@@ -84,9 +86,10 @@
                 </p>
             </div>            
         </section>
+        <!-- Equipe -->
         <section class="equipe">
             <div class="container">
-                <div class="descricao">
+                <div class="equipe_descricao">
                     <div class="titulo">
                         <strong>Equipe</strong>
                         <h2>Um time de profissionais incríveis</h2>
@@ -117,14 +120,15 @@
             </div>
         </section>
     </main>
+    <!-- Rodapé -->
     <footer id="rodape">
         <div class="container">
             <div class="contatoMensagem">
                 <p>Contato</p>
                 <input type="text" placeholder="Nome">
-                <input type="email" name="email" id="email" placeholder="E-mail">
+                <input type="email" name="email" class="email" placeholder="E-mail">
                 <input type="tel" placeholder="Telefone" name="number" id="numero">            
-                <textarea name="" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
                 <button type="button" class="botao"> Enviar </button>
             </div>
             <div class="contatoRedesSociais">
@@ -138,11 +142,14 @@
                 <div class="contatoEmail">
                     <i class="fa-regular fa-envelope" id="icone"></i>
                     <p id="titulo_email">Email:</p>
-                    <p id="email"> contatocanses@gmail.com </p>
+                    <p id="email"> <a href="mailto:contatocanses@gmail.com">contatocanses@gmail.com</a></p>
                 </div>
             </div>
         </div>
     </footer>
+    
+    <!-- Font Awesome -->
+
     <script src="https://kit.fontawesome.com/0169495cc4.js" crossorigin="anonymous"></script>
 </body>
 </html>

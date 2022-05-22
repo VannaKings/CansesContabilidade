@@ -1,0 +1,98 @@
+:root
+{
+    --cinza: rgb(125, 125, 125);
+    --preto: rgb(36, 33, 33);
+    --verde:#10c30d;
+    --azul: #4169e1;
+}
+
+/* ----Seção Perguntas e Respostas---- */
+
+.perguntas .container
+{
+    padding: 100px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.perguntas_descricao
+{
+   display: flex;
+   flex-direction: column;
+   padding: 30px 0;
+   align-items: center;
+}
+.perguntas h1
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.perguntas h2
+{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--azul);
+}
+.perguntas p
+{
+    color: var(--cinza);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* ----Formulário contato---- */
+
+.formulario
+{
+    background-color: whitesmoke;
+}
+.formulario .container
+{
+    padding: 20px;
+    margin: auto;
+}
+.formulario_descricao
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario_conteudo
+{
+    padding: 30px;
+    border: 1px solid rgba(135, 135, 135, 0.3);
+}
+.formulario_descricao h2
+{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.formulario_descricao p
+{
+    color: var(--cinza);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.formulario_conteudo p
+{
+    color: var(--azul);
+    margin-bottom: 20px;
+}
+.nome_telefone
+{
+    display: flex;  
+    padding: 20px 0;  
+}
+.nome_telefone .nome
+{
+    margin-right: 20px;
+}
+.formulario_conteudo .email,.formulario_conteudo .mensagem
+{
+    margin-bottom: 20px;
+}
+

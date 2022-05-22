@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canses</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/perguntas.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <!-- WORD FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Cabeçalho e menu-->     
+        <div class="container">
+            <figure class="logo">
+                <a href="../index.html"><img src="../imgs/logoCanses.png" alt="logoCanses" id="logo"></a> 
+            </figure>
+            <nav class="menu">
+                <a href="../index.html">Home</a>                
+                <a href="../index.html#servicos">Serviços</a>
+                <a href="../index.html#clientes">Clientes</a>
+                <a href="sobre.html">Sobre a Canses</a>
+                <a href="perguntas.html">Perguntas Frequentes</a>
+                <a href="#rodape">Contato</a>
+            </nav>
+        </div>      
+    </header>
+    <main>
+        <!-- Seção Perguntas e Respostas -->
+        <section class="perguntas">
+            <div class="container">
+                <div class="perguntas_descricao">
+                    <h1>Perguntas Frequentes e Respostas</h1>
+                    <p>Aqui você encontra as principais dúvidas a respeito do campo da contabilidade</p>
+                </div>
+                <h2>O que é o Contrato Social?</h2>
+                <p>
+                    O contrato social é o primeiro passo, ele deve ser elaborado de maneira meticulosa, para
+                    não haver nenhum erro. No contrato social irão informações como:
+                    Definir o tipo da empresa – O nome, endereço, atividade que realiza, entre outros detalhes.
+                    Definição do CNAE – Este passo é fundamental. A definição do CNAE influi diretamente na
+                    tributação da empresa, sendo decisivo em processos como licitações.
+                    Descrição dos Sócios – Quem são os sócios e quais as atribuições de cada um?
+                    Fechamento do Capital Social – Qual será o total de investimento inicial em sua empresa?
+                    E como cada sócio arcará com as despesas? Lembrando que é recomendado um
+                    investimento igual entre os sócios.
+                </p>
+                <h2>O que é MEI?</h2>
+                <p> 
+                    O MEI ou Micro Empreendedor Individual é indicado para quem deseja trabalhar sozinho. O
+                    exemplo mais comum são os prestadores de serviço. Essa modalidade só permite a
+                    contratação de um funcionário.
+                </p>
+                <h2>O que é ME e EPP?</h2>
+                <p>
+                    As Micro-Empresas ou ME e as Empresas de Pequeno Porte ou EPP são modalidades com
+                    arrecadações maiores, variando entre uma receita anual de R$ 60.000,01 até R$
+                    3.600.000,00. Nelas é possível contratar mais de um funcionário.
+                </p>
+                <h2>Como é feito o cálculo das despesas?</h2>
+                <p>O cálculo das despesas não deve levar em conta apenas salários e aluguel. É necessário
+                    elaborar uma planilha que contenha informações referentes aos gastos mensais, identificar
+                    quais são as despesas fixas e variáveis.
+                    A partir dai, é feito todo um planejamento para otimizar o dinheiro da sua empresa.
+                </p>
+            </div>            
+        </section>
+        <!-- Seção Formulário -->
+        <section class="formulario">
+            <div class="container">
+                <div class="formulario_descricao">
+                    <h2>Não encontrou o que procurava? Entre em contato conosco!</h2>
+                    <p>Basta entrar em contato pelo formulário abaixo e responderemos o mais breve possível</p>
+                </div>
+                <div class="formulario_conteudo">
+                    <div class="contatoMensagem">
+                        <p>Contato</p>
+                        <div class="nome_telefone">
+                            <input type="text" placeholder="Nome" class="nome">                        
+                            <input type="tel" placeholder="Telefone" name="number"> 
+                        </div>
+                        <input type="email" name="email" class="email" placeholder="E-mail">           
+                        <textarea name="mensagem" class="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                        <button type="button" class="botao"> Enviar </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Rodapé -->
+    <footer id="rodape">
+        <div class="container">
+            <div class="contatoMensagem">
+                <p>Contato</p>
+                <input type="text" placeholder="Nome">
+                <input type="email" name="email" class="email" placeholder="E-mail">
+                <input type="tel" placeholder="Telefone" name="number" id="numero">            
+                <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                <button type="button" class="botao"> Enviar </button>
+            </div>
+            <div class="contatoRedesSociais">
+                <div class="titulo"><h2 >Redes Sociais:</h2></div>
+                <div class="redesSociais">
+                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer" id="facebook"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="" id="whatsapp"><i class="fa-brands fa-whatsapp-square"></i></a>
+                    <a href="http://twitter.com" target="_blank" rel="noopener noreferrer" id="twitter"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="http://instagram.com" target="_blank" rel="noopener noreferrer" id="instagram"><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+                <div class="contatoEmail">
+                    <i class="fa-regular fa-envelope" id="icone"></i>
+                    <p id="titulo_email">Email:</p>
+                    <p id="email"> <a href="mailto:contatocanses@gmail.com">contatocanses@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/0169495cc4.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

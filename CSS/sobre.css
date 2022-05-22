@@ -84,22 +84,24 @@
     padding-top: 50px;
 }
 
-.equipe .descricao
+.equipe_descricao
 {
    display: flex;
    justify-content: center;
    align-items: center;
 }
-.descricao .titulo p
+.equipe_descricao p
 {
     width: 600px;
     color: var(--cinza);
+    margin-bottom: 20px;    
 }
-.equipe .descricao strong
+
+.equipe_descricao strong
 {
     color: red;
 }
-.equipe .descricao h2
+.equipe_descricao h2
 {
     padding: 20px 0;
 }

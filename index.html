@@ -18,7 +18,7 @@
 </head>
 <body>
     <header>
-        <!-- cabeçalho e menu-->     
+        <!-- Cabeçalho e menu-->     
         <div class="container">
             <figure class="logo">
                 <a href="index.html"><img src="imgs/logoCanses.png" alt="logoCanses" id = "logo"></a> 
@@ -28,23 +28,23 @@
                 <a href="#servicos">Serviços</a>                                
                 <a href="#clientes">Clientes</a>                
                 <a href="HTML/sobre.html">Sobre a Canses</a>
-                <a href="">Perguntas Frequentes</a>
+                <a href="HTML/perguntas.html">Perguntas Frequentes</a>
                 <a href="#rodape">Contato</a>
             </nav>
         </div>      
     </header>
     <main>
+        <!-- Banner -->
         <section class="banner">
             <div class="container">
                 <h1> Canses Contabilidade</h1>
                 <p>A excelência em Serviços Contábeis de forma rápida e transparente.</p>
-                <a href="HTML/sobre.html">
-                    <button type="button">                        
-                            Conheça a Canses
-                    </button>
-                </a>
+                <form method="get" action="HTML/sobre.html">
+                    <button> Conheça a Canses</button>
+                </form>                 
             </div>
         </section>
+        <!-- Seção Objetivos -->
         <section class="sobreObjetivos" id = "sobre">
             <div class="container">
                 <h2>Sobre a Canses</h2> 
@@ -78,6 +78,7 @@
                 </div>  
             </div>
         </section>
+        <!-- Seção serviços -->
         <section class="servicos" id="servicos">
             <div class="container">
                 <div class="servicos_titulo">
@@ -115,10 +116,10 @@
                     </div>
                     <div class="area">
                         <i class="fa-solid fa-scale-balanced"></i>
-                        <divc class="texto">
+                        <div class="texto">
                             <strong>IMPOSTO DE RENDA</strong>
                             <p>Este é o primeiro e grande passo para ingressar no mundo dos negócios, na Cansas, você aprenderá sem complicações.</p>                        
-                        </divc>
+                        </div>
                     </div>
                     <div class="area">
                         <i class="fa-regular fa-handshake"></i>
@@ -130,6 +131,7 @@
                 </div>
             </div>
         </section>
+        <!-- Orçamento (bootstrap) -->
         <section class="orcamentos">
             <div class="container">
                 <div class="descricao">
@@ -201,9 +203,9 @@
                     <p>Confira nossos principais clientes e seus respectivos sites</p>
                 </div>
                 <div class="clientes_conteudo">
-                    <a href="http:///www.belimo.com" target="_blank" rel="noopener noreferrer"><img src="imgs/Belimo.png" alt="logo Belimo"></a> 
+                    <a href="http://www.belimo.com" target="_blank" rel="noopener noreferrer"><img src="imgs/Belimo.png" alt="logo Belimo"></a> 
                     <a href="http://citrus.cx" target="_blank" rel="noopener noreferrer"><img src="imgs/Citrus.png" alt="logo Citrus"></a>
-                    <a href="http:///www.life.church/lifegroups" target="_blank" rel="noopener noreferrer"><img src="imgs/LifeGroups.png" alt="logo Life groups"></a>                   
+                    <a href="http://www.life.church/lifegroups" target="_blank" rel="noopener noreferrer"><img src="imgs/LifeGroups.png" alt="logo Life groups"></a>                   
                     <a href="http://https://www.lilly.com.br" target="_blank" rel="noopener noreferrer"><img src="imgs/Lilly.png" alt="logo Lilly"></a>
                     <a href="http://www.myob.com/au" target="_blank" rel="noopener noreferrer"><img src="imgs/Myob.png" alt="logo Myob"></a>
                     <a href="http://www.trustly.net/pt-BR" target="_blank" rel="noopener noreferrer"><img src="imgs/Trustly.png" alt="logo Trustly"></a>
@@ -211,14 +213,15 @@
             </div>
         </section>
     </main>
+    <!-- Rodapé -->
     <footer id="rodape">
         <div class="container">
             <div class="contatoMensagem">
                 <p>Contato</p>
                 <input type="text" placeholder="Nome">
-                <input type="email" name="email" id="email" placeholder="E-mail">
+                <input type="email" name="email" class="email" placeholder="E-mail">
                 <input type="tel" placeholder="Telefone" name="number" id="numero">            
-                <textarea name="" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
                 <button type="button" class="botao"> Enviar </button>
             </div>
             <div class="contatoRedesSociais">
@@ -232,11 +235,14 @@
                 <div class="contatoEmail">
                     <i class="fa-regular fa-envelope" id="icone"></i>
                     <p id="titulo_email">Email:</p>
-                    <p id="email"> contatocanses@gmail.com </p>
+                    <p id="email"> <a href="mailto:contatocanses@gmail.com">contatocanses@gmail.com</a></p>
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- Font Awesome -->
+
     <script src="https://kit.fontawesome.com/0169495cc4.js" crossorigin="anonymous"></script>
 
     <!-- jQuery,Popper.js, Bootstrap JS -->

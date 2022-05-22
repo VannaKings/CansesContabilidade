@@ -29,8 +29,9 @@ header
 {
     display: flex;
     justify-content: center;
-    background-color: white; 
-    width: 100%;
+    background-color: white;
+    width: 100%; 
+    min-height: 120px;
     position: fixed;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
@@ -38,7 +39,7 @@ header .container
 {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 header .container nav a
@@ -49,7 +50,10 @@ header .container nav a
     margin-right: 20px;
     font-size: 20px;    
 }
-
+header figure
+{
+    height: 90px;
+}
 #logo
 {
     height: 100px;
@@ -61,15 +65,13 @@ footer
 {
     display: flex;
     justify-content: center;
-    border-top: 20px solid var(--azul);
-    
+    border-top: 20px solid var(--azul);    
 }
 
 footer .container
 {
     display: flex;
-    justify-content: center;
-   
+    justify-content: center;   
 }
 footer .contatoMensagem
 {
@@ -192,7 +194,7 @@ footer .contatoMensagem
 {
     display: grid;
     align-items: center;
-    grid-template-columns: 20% 0%;   
+    grid-template-columns: 60px 0px;   
 }
 #titulo_email
 {
@@ -201,6 +203,11 @@ footer .contatoMensagem
 .contatoEmail p
 {
     font-weight: bold;
+    color: var(--cinza);
+}
+.contatoEmail p a
+{
+    font-size: 16px;
 }
 .contatoEmail i
 {

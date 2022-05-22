@@ -4,27 +4,39 @@
     {
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
     }
 
-    .objetivos,.descricao
+    .objetivos, .equipe_descricao
     {
         display: flex;
         flex-direction: column;
         align-items: center;   
     } 
-    .equipe .descricao p
+    .servicos_conteudo
     {
-        margin-bottom: 20px;
+        grid-template-columns: 320px 310px;
     }
+    .clientes_conteudo
+    {
+        grid-template-columns: 250px 200px;
+    }
+
     .equipe h2
     {
         text-align: center;
     }
+
     .equipe_perfil
     {
         display: grid;
         grid-template-columns: 250px 200px;
     }
+    .perguntas_descricao
+    {
+        padding-top: 100px;
+    }    
+
 }
 
 @media screen and (min-width:1000px)
