@@ -20,8 +20,9 @@
 {
     display: flex;
     flex-direction: column;   
-    padding: 180px 0;    
+    padding-top: 180px;    
 }
+
 .banner h1
 {
     font-size: 40px;
@@ -46,6 +47,7 @@
     border-color: var(--azul);
     cursor: pointer;
     color: white;
+
     text-transform: uppercase;
     font-weight: bold;
     font-size: 16px;
@@ -60,15 +62,16 @@
 
 /* -----Seção sobre----- */
 
-.sobreObjetivos .container
+.secao-sobre .container
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 70px 20px 70px 100px; 
+    padding: 30px;
 }
-.sobreObjetivos h2
+
+.container-sobre-descricao h2
 {
     display: flex;
     justify-content: center;
@@ -78,49 +81,49 @@
     margin-bottom: 30px;
 }
 
-.sobreObjetivos p
+.container-sobre-descricao p
 {
     color: var(--cinza);
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.sobreObjetivos img
+.secao-sobre img
 {
     max-height: 200px;
     width: 150px;    
 }
 
-.objetivos
+.container-valores-visao-missao
 {
     display: flex;
     justify-content: center;
     padding: 30px;
 }
 
-.objetivos img
+.container-valores-visao-missao img
 {
     margin-left: 50px;
 }
 
- .objetivos p
+ .container-valores-visao-missao p
 {
     font-size: 14px;
     color: var(--cinza);
     width: 300px;
 }
-
-.valores
+.valores, .visao
 {
-    margin-right: 20px;
+    padding: 0 20px;
 }
 
 /*----Seção serviços---- */
 
-.servicos
+.secao-servicos
 {
     background-color: whitesmoke;
 }
-.servicos .container
+.secao-servicos .container
 {
     display: flex;
     flex-direction: column;
@@ -128,7 +131,8 @@
     align-items: center;
     padding-top: 30px;
 }
-.servicos .servicos_titulo
+
+.container-servicos-descricao
 {
     display: flex;
     flex-direction: column;
@@ -138,12 +142,13 @@
     max-width: 600px;
     text-align: center;
 }
-.servicos_titulo p
+
+.container-servicos-descricao p
 {
     margin-top: 20px;
     color: var(--cinza);
 }
-.servicos_conteudo
+.container-servicos-conteudo
 {
     display: grid;
     grid-template-columns: 300px 320px 300px;
@@ -152,24 +157,24 @@
     padding: 50px;
 }
 
-.servicos_conteudo .area
+.container-servicos-conteudo .area
 {
     display: flex;
     align-items: center;    
 }
-.servicos_conteudo .texto
+.container-servicos-conteudo .texto
 {
     display: flex;
     flex-direction: column;
     padding: 20px;
     max-width: 250px;
 }
-.servicos_conteudo i
+.container-servicos-conteudo i
 {
     font-size: 50px;
     color: var(--azul);
 }
-.servicos_conteudo .texto p
+.container-servicos-conteudo .texto p
 {
     font-size: 14px;
     margin-top: 20px;
@@ -178,7 +183,7 @@
 
 /*----Orçamentos----*/
 
-.orcamentos .container 
+.secao-orcamentos .container 
 {
     display:flex;
     align-items: center;
@@ -186,61 +191,61 @@
     margin-bottom: 20px;
     max-width: 1100px;
 }
-.orcamentos .descricao
+.container-orcamentos-descricao
 {
     text-align: center; 
     margin: 30px 0;    
 }
-.orcamentos .descricao p
+.container-orcamentos-descricao p
 {
     margin-top: 20px;
     color: var(--cinza);
 }
-.orcamentos .descricao a
+.container-orcamentos-descricao a
 {
     text-decoration: none;
     color: var(--cinza);
     font-weight: bold;
 }
-.orcamentos table
+.secao-orcamentos table
 {
     color: var(--cinza);
 }
 
 /* ---Clientes---- */
 
-.clientes
+.secao-clientes
 {
     background-color: whitesmoke;
 }
 
-.clientes .container
+.secao-clientes .container
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
 }
-.clientes .descricao
+
+.container-clientes-descricao
 {
     text-align: center;
 }
-.clientes .descricao p
+.container-clientes-descricao p
 {
     color: var(--cinza);
     margin: 20px 0 30px 0;
 }
 
-.clientes_conteudo
+.container-clientes-conteudo
 {
     display: grid;
-    grid-template-columns: 300px 300px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 120px;
+    grid-column-gap: 50px;
     justify-content: center;
     align-items: center;
-    max-width: 1000px; 
 }
-.clientes_conteudo a img
+.container-clientes-conteudo a img
 {
     max-width: 200px;
 }

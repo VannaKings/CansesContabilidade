@@ -27,9 +27,9 @@
                 <a href="index.html">Home</a>
                 <a href="#servicos">Serviços</a>                                
                 <a href="#clientes">Clientes</a>                
-                <a href="HTML/sobre.html">Sobre a Canses</a>
-                <a href="HTML/perguntas.html">Perguntas Frequentes</a>
+                <a href="HTML/sobre.html">Sobre a Canses</a>                
                 <a href="#rodape">Contato</a>
+                <a href="HTML/perguntas.html">Perguntas Frequentes</a>
             </nav>
         </div>      
     </header>
@@ -45,11 +45,13 @@
             </div>
         </section>
         <!-- Seção Objetivos -->
-        <section class="sobreObjetivos" id = "sobre">
+        <section class="secao-sobre" id = "sobre">
             <div class="container">
-                <h2>Sobre a Canses</h2> 
-                <p>Conheça um pouco mais sobre nossos objetivos no campo profissional</p>           
-                <div class="objetivos"> 
+                <div class="container-sobre-descricao">
+                    <h2>Sobre a Canses</h2> 
+                    <p>Conheça um pouco mais sobre nossos objetivos no campo profissional</p>
+                </div>           
+                <div class="container-valores-visao-missao"> 
                     <div class="valores">
                         <img src="imgs/valores.PNG" alt="">
                         <p> 
@@ -79,13 +81,13 @@
             </div>
         </section>
         <!-- Seção serviços -->
-        <section class="servicos" id="servicos">
+        <section class="secao-servicos" id="servicos">
             <div class="container">
-                <div class="servicos_titulo">
+                <div class="container-servicos-descricao">
                     <h2>Nossos serviços</h2>
                     <p>Em nossa experiência atuamos com o que há de mais atual e sempre trabalhando com rapidez para atender nosso cliente.</p>
                 </div>
-                <div class="servicos_conteudo">
+                <div class="container-servicos-conteudo">
                     <div class="area">
                         <i class="fa-solid fa-file-invoice"></i>
                         <div class="texto">
@@ -132,9 +134,9 @@
             </div>
         </section>
         <!-- Orçamento (bootstrap) -->
-        <section class="orcamentos">
+        <section class="secao-orcamentos">
             <div class="container">
-                <div class="descricao">
+                <div class="container-orcamentos-descricao">
                     <h2>Prazos e preços</h2>
                     <p>Caso tenha dúvidas ou não ache o serviço desejado, entre em contato conosco por <a href="#rodape">aqui</a></p>
                 </div>
@@ -196,13 +198,13 @@
                   </table>
             </div>
         </section>
-        <section class="clientes" id="clientes">
+        <section class="secao-clientes" id="clientes">
             <div class="container">
-                <div class="descricao">
+                <div class="container-clientes-descricao">
                     <h2 class="titulo">Clientes</h2>
                     <p>Confira nossos principais clientes e seus respectivos sites</p>
                 </div>
-                <div class="clientes_conteudo">
+                <div class="container-clientes-conteudo">
                     <a href="http://www.belimo.com" target="_blank" rel="noopener noreferrer"><img src="imgs/Belimo.png" alt="logo Belimo"></a> 
                     <a href="http://citrus.cx" target="_blank" rel="noopener noreferrer"><img src="imgs/Citrus.png" alt="logo Citrus"></a>
                     <a href="http://www.life.church/lifegroups" target="_blank" rel="noopener noreferrer"><img src="imgs/LifeGroups.png" alt="logo Life groups"></a>                   
@@ -233,8 +235,10 @@
                     <a href="http://instagram.com" target="_blank" rel="noopener noreferrer" id="instagram"><i class="fa-brands fa-instagram-square"></i></a>
                 </div>
                 <div class="contatoEmail">
-                    <i class="fa-regular fa-envelope" id="icone"></i>
-                    <p id="titulo_email">Email:</p>
+                    <div class="container-titulo-email">
+                        <i class="fa-regular fa-envelope" id="icone"></i>
+                        <p id="titulo_email">Email:</p>
+                    </div>
                     <p id="email"> <a href="mailto:contatocanses@gmail.com">contatocanses@gmail.com</a></p>
                 </div>
             </div>

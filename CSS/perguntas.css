@@ -8,76 +8,86 @@
 
 /* ----Seção Perguntas e Respostas---- */
 
-.perguntas .container
+.secao-perguntas .container
 {
-    padding: 100px 20px 0 20px;
+    padding-top: 130px;
     display: flex;
     flex-direction: column;
     margin: auto;
+
 }
-.perguntas_descricao
+.container-perguntas-descricao
 {
    display: flex;
    flex-direction: column;
    padding: 30px 0;
    align-items: center;
 }
-.perguntas h1
+
+.secao-perguntas h1
 {
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 20px;
+
+    text-align: center;
 }
-.perguntas h2
+.secao-perguntas h2
 {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 20px;
     color: var(--azul);
 }
-.perguntas p
+.secao-perguntas p
 {
     color: var(--cinza);
     font-size: 16px;
     margin-bottom: 20px;
 }
 
+.container-perguntas-descricao p
+{
+    text-align: center;
+}
+
 /* ----Formulário contato---- */
 
-.formulario
+.secao-formulario
 {
     background-color: whitesmoke;
 }
-.formulario .container
-{
-    padding: 20px;
-    margin: auto;
-}
-.formulario_descricao
+
+.container-formulario-descricao
 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.formulario_conteudo
-{
-    padding: 30px;
-    border: 1px solid rgba(135, 135, 135, 0.3);
-}
-.formulario_descricao h2
+
+.container-formulario-descricao h2
 {
     color: black;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 20px;
+    text-align: center;
 }
-.formulario_descricao p
+.container-formulario-descricao p
 {
     color: var(--cinza);
     font-size: 16px;
     margin-bottom: 20px;
+    text-align: center;
 }
-.formulario_conteudo p
+
+.container-formulario-conteudo
+{
+    padding: 30px;
+    border: 1px solid rgba(135, 135, 135, 0.3);
+}
+
+.container-formulario-conteudo p
 {
     color: var(--azul);
     margin-bottom: 20px;
@@ -91,7 +101,7 @@
 {
     margin-right: 20px;
 }
-.formulario_conteudo .email,.formulario_conteudo .mensagem
+.container-formulario-conteudo .email,.container-formulario-conteudo .mensagem
 {
     margin-bottom: 20px;
 }
