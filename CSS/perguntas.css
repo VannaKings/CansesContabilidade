@@ -42,7 +42,6 @@
 .secao-perguntas p
 {
     color: var(--cinza);
-    font-size: clamp(0.5em, 0.7em + 0.5vw, 1.5em);
     margin-bottom: 20px;
 }
 
@@ -69,7 +68,7 @@
 {
     color: black;
     font-weight: bold;
-    font-size: clamp(1em, 1em + 1.5vw, 2em);
+    font-size: clamp(1em, 1em + 1vw, 1.8em);
     margin-bottom: 20px;
     text-align: center;
 }

@@ -1,5 +1,5 @@
 
-/* Responsividade para telas de no minímo 700px (tablets) */
+/* Responsividade */
 
 @media screen and (max-width:930px)
 {
@@ -10,7 +10,6 @@
     header .container
     {
         justify-content: space-between;
-        margin: 0 40px;
     }
     .dropdown
     {
@@ -57,10 +56,9 @@
 @media screen and (max-width:650px)
 {
     
-    
     .container
     {
-        padding: 10px;
+        padding: 20px;
     }
 
     /* Seção serviços, Seção clientes (index.html) e Seção equipe (sobre.html) */
@@ -71,15 +69,6 @@
     .container-clientes-conteudo 
     {
         grid-row-gap: 20px;
-    }
-    .container-perguntas-descricao
-    {
-        margin-top: 0px;
-    }
-    
-    .historia .container
-    {
-        margin-left: 2.5em;
     }
 }
 

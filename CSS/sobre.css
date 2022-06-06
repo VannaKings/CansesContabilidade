@@ -7,7 +7,7 @@
 }
 /* ----Banner Sobre---- */
 
-.banner
+.banner-sobre
 {
     background:linear-gradient(rgba(155, 155, 155, 0),rgba(151, 151, 151, 0.308)100%),url(../imgs/bannerSobre.png);
     background-repeat: no-repeat;
@@ -16,31 +16,26 @@
     background-size: cover;
     display: flex;    
 }
-.banner .container
+.banner-sobre .container
 {
     display: flex;
     flex-direction: column; 
     padding: 90px 0 0 50px;
     background-color: white;
     height: 260px;
-    width: 72%;
-    min-width: 275px;
-    margin-left: 10%;
     margin-top: 340px;
 }
 
-.banner #biografia
+#biografia
 {
     color: red;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;    
 }
 
 #titulo
 {
     font-size: clamp(1.2em, 1.5em + 1.5vw, 2.5em);
     font-weight: bold;
-    margin-right: 10px;
 }
 
 #linhaDecorativa
@@ -57,15 +52,14 @@
 {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    width: 60%;
-    min-width: 250px;
-    padding-left: 55px;
 }
+
 .historia .container p
 {
     color: var(--cinza);
-    margin-bottom: 20px;    
+    margin-bottom: 20px; 
+    max-width: 700px;
+    padding: 0 20px;   
 }
 
 /* ----Seção Equipe---- */
@@ -82,7 +76,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: auto;
     padding-top: 50px;
 }
 
@@ -97,9 +90,9 @@
 .container-equipe-descricao p
 {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     color: var(--cinza);
-    margin-bottom: 20px;    
+    margin-bottom: 20px;  
 }
 
 .container-equipe-descricao strong
@@ -116,8 +109,7 @@
 .container-equipe-descricao img
 {
     border-radius: 10px;
-    height: 100%;
-    max-height: 200px;
+    max-width: 100%;
 }
 
 .container-equipe-perfil
@@ -125,7 +117,7 @@
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 30px;
+    padding-left: 20px;
 }
 .container-equipe-perfil img
 {
