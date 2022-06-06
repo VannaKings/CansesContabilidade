@@ -4,22 +4,6 @@
 @media screen and (max-width:930px)
 {
 
-    header nav{
-        display: none;
-    }
-    header .container
-    {
-        justify-content: space-between;
-    }
-    .dropdown
-    {
-        display: inline-block;
-    }
-    
-    header nav a{
-        padding: 10px 0;
-    }
-
     /* Seção objetivos (index.html) e Seção equipe (sobre.html) */
     .container-valores-visao-missao, .container-equipe-descricao
     {
@@ -53,9 +37,25 @@
 
 }
 
-@media screen and (max-width:650px)
+@media screen and (max-width:670px)
 {
+    header nav{
+        display: none;
+    }
+    header .container
+    {
+        justify-content: space-between;
+    }
     
+    #logo
+    {
+        margin-left: 30px;
+    }
+
+    .dropdown
+    {
+        display: inline-block;
+    }
     .container
     {
         padding: 20px;
