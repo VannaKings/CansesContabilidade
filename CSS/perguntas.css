@@ -27,7 +27,7 @@
 .secao-perguntas h1
 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: clamp(1em, 1em + 1.5vw, 2em);
     margin-bottom: 20px;
 
     text-align: center;
@@ -35,14 +35,14 @@
 .secao-perguntas h2
 {
     font-weight: bold;
-    font-size: 24px;
+    font-size: clamp(0.7em, 1em + 1vw, 1.5em);
     margin-bottom: 20px;
     color: var(--azul);
 }
 .secao-perguntas p
 {
     color: var(--cinza);
-    font-size: 16px;
+    font-size: clamp(0.5em, 0.7em + 0.5vw, 1.5em);
     margin-bottom: 20px;
 }
 
@@ -69,14 +69,14 @@
 {
     color: black;
     font-weight: bold;
-    font-size: 24px;
+    font-size: clamp(1em, 1em + 1.5vw, 2em);
     margin-bottom: 20px;
     text-align: center;
 }
 .container-formulario-descricao p
 {
     color: var(--cinza);
-    font-size: 16px;
+    font-size: clamp(0.5em, 0.7em + 0.5vw, 1.5em);
     margin-bottom: 20px;
     text-align: center;
 }

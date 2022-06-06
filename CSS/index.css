@@ -25,7 +25,7 @@
 
 .banner h1
 {
-    font-size: 40px;
+    font-size: clamp(1.2em, 1.5em + 2vw, 2.5em);
     color: var(--verde);
     font-weight: bold;
     text-shadow: 0.05em 0.05em 0.1em rgb(43, 42, 42);
@@ -34,14 +34,15 @@
 {
     padding: 40px 0;
     font-weight: bold;
-    font-size: 30px;
-    width: 400px;
+    font-size: clamp(1em, 1em + 1.5vw, 2em);
+    max-width: 400px;
     color: var(--preto);
 }
 .banner button
 {
     border-radius: 20px;
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     padding: 10px;
     background-color: var(--azul);
     border-color: var(--azul);
@@ -50,7 +51,7 @@
 
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 16px;
+    font-size: clamp(1em, 0.5em + 0.5vw, 1.5em);;
     word-spacing: 4.3px;
     letter-spacing: .8px;
 }
@@ -71,20 +72,21 @@
     padding: 30px;
 }
 
-.container-sobre-descricao h2
+.container-sobre-descricao 
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-bottom: 10px;
-    font-size: 32px;
+    align-items: center;
+    margin: 10px 0;
+    /* font-size: clamp(1em, 1.5em + 1.5vw, 2em); */
     color: var(--preto);
-    margin-bottom: 30px;
 }
 
 .container-sobre-descricao p
 {
     color: var(--cinza);
-    margin-bottom: 20px;
+    margin: 10px 0;
     text-align: center;
 }
 
@@ -108,11 +110,11 @@
 
  .container-valores-visao-missao p
 {
-    font-size: 14px;
+    font-size: clamp(0.8em, 0.5em + 0.5vw, 1em);
     color: var(--cinza);
     width: 300px;
 }
-.valores, .visao
+.valores, .visao, .missao
 {
     padding: 0 20px;
 }
@@ -176,7 +178,7 @@
 }
 .container-servicos-conteudo .texto p
 {
-    font-size: 14px;
+    font-size: clamp(0.8em, 0.5em + 0.5vw, 1em);
     margin-top: 20px;
     color:var(--cinza)
 }

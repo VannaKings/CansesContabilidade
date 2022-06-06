@@ -23,22 +23,24 @@
     padding: 90px 0 0 50px;
     background-color: white;
     height: 260px;
-    width: 70%;
-    min-width: 300px;
+    width: 72%;
+    min-width: 275px;
     margin-left: 10%;
     margin-top: 340px;
 }
+
 .banner #biografia
 {
     color: red;
     margin-bottom: 40px;
-    font-size: 16px;
+    
 }
 
 #titulo
 {
-    font-size: 40px;
+    font-size: clamp(1.2em, 1.5em + 1.5vw, 2.5em);
     font-weight: bold;
+    margin-right: 10px;
 }
 
 #linhaDecorativa
@@ -46,7 +48,7 @@
     background-color: var(--azul);
     height: 3px;
     width: 50%;
-    margin-top:50px;
+    margin-top: 3em;
 }
 
 /* ----Seção historia---- */
@@ -57,7 +59,8 @@
     flex-direction: column;
     margin-left: 10%;
     width: 60%;
-    min-width: 300px;
+    min-width: 250px;
+    padding-left: 55px;
 }
 .historia .container p
 {
