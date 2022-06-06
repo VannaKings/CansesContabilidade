@@ -153,7 +153,7 @@
 .container-servicos-conteudo
 {
     display: grid;
-    grid-template-columns: 300px 320px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
     padding: 50px;
