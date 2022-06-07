@@ -123,11 +123,11 @@
 {
     max-width:200px;
     margin-right: 30px;
-    border-radius: 20px;
+    border-radius: 50%;
 }
 .container-equipe-perfil figcaption
 {
     width: 200px;
     color: var(--cinza);
-    font-weight: bold;
+    text-align: center;
 }
