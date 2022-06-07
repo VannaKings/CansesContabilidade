@@ -56,9 +56,15 @@
     {
         display: inline-block;
     }
+
     .container
     {
         padding: 20px;
+    }
+    
+    .banner p
+    {
+        max-width: 280px;
     }
 
     /* Seção serviços, Seção clientes (index.html) e Seção equipe (sobre.html) */
